@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import device from './device';
+// Import Themeprovider, theme.js dan global.js disini
 
+// Card Components
 const Card = styled.div`
   position: relative;
   display: flex;
@@ -25,9 +27,19 @@ const Card = styled.div`
   }
 `;
 
+// Tambah button components disni
+
 export default function App() {
+  //  ambah config theme disini
+
+  // tambah handleTheme disni
+
+  // tambah useEffect disini
+
   return (
     <div>
+      {/* Tambah Button Components disini */}
+      {/* Card Component */}
       <Card>
         <img
           src="https://cdn.myanimelist.net/images/anime/1711/110614.jpg"
